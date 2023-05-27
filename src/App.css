@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d1e0e0;
+
+}
+.heroDiv{
+  width:50%;
+  margin:30px 25%;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  min-height: 80vh;
+}
+/* Navbar CSS */
+.mainDiv {
+  width: 100%;
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+
+}
+.textImage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+.textImage h1{
+  font-size: 22px;
+  font-family: Helvetica;
+}
+.textImage img{
+  width:36px;
+  height:36px;
+  border-radius: 50%;
+}
+.dateTime
+{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.dayPara
+{
+font-weight: bold;
+font-size: 28px;
+font-family: Helvetica;
+}
+.datePara{
+  font-size: 16px;
+  font-family: Helvetica;
+  padding-top: 3px;
+  color: #76797a;
+  font-weight: bold;
+
+}
+/* Main.js */
+.contentDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contentDivInner{
+  width: 60%;
+}
+.statusDiv{
+  width:94%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content:center;
+}
+.todoMainDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.todoInputDiv
+{
+  margin-top: 10px;
+  width: 100%;
+}
+.todoInputDiv input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 5px #ddd;
+  font-family: sans-serif;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.todoInputDiv button{
+  margin-left: 6px;
+  font-size: 14px;
+  padding: 4px 16px;
+  border-radius: 6px;
+  border:1px solid blue;
+  color:blue;
+  /* margin-top: px; */
+}
+.card{
+  padding: 8px;
+  width: 100%;
+  
+}
+.cards{
+  padding: 4px;
+  /* background-color: #d1e0e0; */
+  background-color:#e8e7e6;
+  /* background-color: #cfc9c4; */
+  border:1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* align-content: center; */
+  font-size: 14px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  width: 80%;
+  box-shadow: 2px 4px 5px #ddd;
+  
+}
+.leftItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+/* Main.js */
+.buttonCompletedDiv
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+.completedList{
+  padding:0 0 0 3px;
+  font-size: 18px;
+  /* font-family: Arial; */
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-shadow: 2px;
+  color: #76797a;
+
+}
+.calculationDiv
+{
+  width: 70%;
+  padding:0 0 0 3px;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-shadow: 2px;
+}
+.compTotalDiv
+{
+  font-size: 22px;
+  color: #76797a;
+
+}
+.myListDiv
+{
+  font-size: 21px;
+padding-left: 10px;
+}

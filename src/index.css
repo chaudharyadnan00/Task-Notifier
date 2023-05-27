@@ -1,0 +1,16 @@
+body{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.main_div{
+  align-items: center;
+  font-family: sans-serif;
+  border: 1px solid gray;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px lightcyan;
+  width: fit-content;
+  display: flex;
+  margin:10px 0 0 50%;
+  padding:2px 12px;
+}
